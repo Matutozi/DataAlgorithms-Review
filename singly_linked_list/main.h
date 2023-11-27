@@ -1,15 +1,13 @@
-#ifndef __MAIN_H__
-#define __MAIN_H__
-
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdlib.h>
 #include <stdio.h>
 
 typedef struct list_s{
-    int *str;
-    unsigned int len;
+    int data;
     struct list_s *next;
 
 }list_s;
 
-#endif __MAIN_H__
+#endif
