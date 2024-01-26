@@ -3,11 +3,17 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
-typedef struct list_s{
+struct node{
     int data;
-    struct list_s *next;
+    struct node *next;
+};
 
-}list_s;
+struct node *header = NULL;
+//struct node *current = NULL;
+
+void printList();
+void insertatbegin(int data);
 
 #endif
