@@ -4,14 +4,14 @@ rotations: number of times the list was rotated ,2
 
 """
 
-#express the test cases as dictionary
+"""#express the test cases as dictionary
 test = {
     "input": {
         "nums": [4,5,6,7,8,1,2,3]
     },
     "output": 5
 }
-
+"""
 #note that if a sorted list was rotated k times the smallest element is located at position K
 
 """USING LINEAR SEARCH
@@ -61,8 +61,8 @@ def count_rotations_binary(nums):
             hi = hi - 1
     return -1
 
-from jovian.pythondsa import evaluate_test_case
-evaluate_test_case(count_rotations_binary, test)
+#from jovian.pythondsa import evaluate_test_case
+#evaluate_test_case(count_rotations_binary, test)
 
 
 """BINARY SEARCH METHOD THAT CAN HANDLE DUPLICATES"""
@@ -82,9 +82,9 @@ def binary_search(lo, hi, condition):
         elif mid_number == "left":
             hi = mid -1
         else:
-            lo = lo + 1
+            lo = mid + 1
 
-    return -1 #try 0 also
+    return 0 #try 0 also
 
 
 def count_rotations_binary_dulicate(nums):
@@ -109,12 +109,59 @@ def count_rotations_binary_dulicate(nums):
     if rotation == 0:
         while lo< hi and nums[lo] == nums[hi]:
             lo += 1
-            hi -+ 1
+            hi -= 1
         rotation = binary_search(lo, hi, conditions)
 
     return rotation 
         
 
+#TO TEST THE CODE
 
 
 
+
+from jovian.pythondsa import evaluate_test_case
+
+# Define all test cases
+tests = [
+    {
+        "input": {"nums": [1, 2, 3, 4, 5]},
+        "output": 0
+    },
+    {
+        "input": {"nums": [5, 1, 2, 3, 4]},
+        "output": 1
+    },
+    {
+        "input": {"nums": [4, 5, 6, 1, 2, 3]},
+        "output": 3
+    },
+    {
+        "input": {"nums": [4, 4, 5, 6, 1, 1, 2, 3]},
+        "output": 4
+    },
+    {
+        "input": {"nums": [2, 2, 2, 2, 2, 1, 2, 2, 2]},
+        "output": 5
+    },
+    {
+        "input": {"nums": [1]},
+        "output": 0
+    },
+    {
+        "input": {"nums": [2, 1]},
+        "output": 1
+    },
+    {
+        "input": {"nums": [7, 7, 7, 7, 7, 7, 7]},
+        "output": 0
+    },
+    {
+        "input": {"nums": list(range(1000, 2000)) + list(range(0, 1000))},
+        "output": 1000
+    }
+]
+
+from jovian.pythondsa import evaluate_test_cases
+evaluate_test_cases(count_rotations_binary_dulicate, tests)
+#to test it out
