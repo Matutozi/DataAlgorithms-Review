@@ -59,6 +59,62 @@ def count_rotations_binary(nums):
 
         else:
             hi = hi - 1
+    return -1
 
 from jovian.pythondsa import evaluate_test_case
 evaluate_test_case(count_rotations_binary, test)
+
+
+"""BINARY SEARCH METHOD THAT CAN HANDLE DUPLICATES"""
+
+"""The method implemented below can handle duplicate values
+    we would have a helper function that helps us perform the binary search"""
+def binary_search(lo, hi, condition):
+    """Method that performs the binary search"""
+
+    while lo <= hi:
+
+        mid = (lo + hi) // 2
+        mid_number = condition(mid)
+
+        if mid_number == "found":
+            return mid
+        elif mid_number == "left":
+            hi = mid -1
+        else:
+            lo = lo + 1
+
+    return -1 #try 0 also
+
+
+def count_rotations_binary_dulicate(nums):
+    lo = 0
+    hi = len(nums) - 1
+
+    def conditions(mid):
+        if mid > 0 and nums[mid] < nums[mid - 1]:
+            return "found"
+        if mid < len(nums) - 1 and nums[mid + 1] < nums[mid]:
+            return "found"
+        
+        if nums[lo] == nums[hi] == nums[mid]:
+            return "unsure"
+        elif nums[lo] <= nums[mid]:
+            return "right"
+        else:
+            return "left"
+        
+    rotation = binary_search(lo, hi, conditions)
+
+    if rotation == 0:
+        while lo< hi and nums[lo] == nums[hi]:
+            lo += 1
+            hi -+ 1
+        rotation = binary_search(lo, hi, conditions)
+
+    return rotation 
+        
+
+
+
+
