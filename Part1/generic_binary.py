@@ -1,5 +1,6 @@
 def binary_search(lo, hi, condition):
-    """method that implements the binary search"""
+    """method that implements the binary search
+    THE CODE BELOW IS THE GENERIC REPRESENTATION OF BINARY SEARCH"""
     while lo <= hi:
         middle = (hi + lo) // 2
         middle_val = condition(middle)
