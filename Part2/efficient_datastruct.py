@@ -92,3 +92,19 @@ def traverse_post_order(node):
     return traverse_post_order(node.left) + traverse_post_order(node.right) + [node.key]
 
 print(traverse_post_order(tree2))
+
+
+def height_tree(node):
+    """MEthod that implemets the height of tree"""
+    if node is None:
+        return 0
+    return 1 + max(height_tree(node.left), height_tree(node.right))
+
+print(height_tree(tree2))
+
+#OR
+
+def tree_height(node):
+    if node is None:
+        return None
+    return 1 + tree_height(node.left)+ tree_height(node.right)
