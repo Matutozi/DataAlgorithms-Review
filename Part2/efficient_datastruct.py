@@ -10,10 +10,10 @@ it must be balanced on both sides"""
 
 class TreeNode:
     """MEthod that implements the tree node syestm"""
-    def __init__(self, key):
+    def __init__(self, key, left=None, right= None):
         self.key = key
-        self.left = None
-        self.right = None
+        self.left = left
+        self.right = right
 
 node0 = TreeNode(2)
 node1 = TreeNode(3)
@@ -57,3 +57,20 @@ print(tree2)
 print(tree2.right.right.right.key)
 
 #TRY TO DEFINE A FUNCTION THAT CONVERTS A TREE TO A TUPLE
+
+
+"""TRAVERSING A BINARY TREE
+moving through an element of a binary tree once
+- inorder LMR
+- preorder
+- post order
+"""
+
+#INORDER TRAVERSAL
+def traverse_in_order(node):
+    """METHOD THAT IMPLEMENTS TRAVERSAL IN ORDER"""
+    if node is None:
+        return []
+    return (traverse_in_order(node.left) + [node.key] + traverse_in_order(node.right))
+
+print(traverse_in_order(tree2))
