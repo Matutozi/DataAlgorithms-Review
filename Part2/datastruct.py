@@ -79,3 +79,5 @@ insert - O(N)
 update O(N)
 find- O(N)
 """
+
+#check the next file for a more efficiet solution
