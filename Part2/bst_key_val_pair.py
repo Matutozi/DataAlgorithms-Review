@@ -122,5 +122,9 @@ data = [(1, 'a'), (2, 'b'), (3, 'c'), (4, 'd'), (5, 'e'), (6, 'f'), (7, 'g')]
 
 tree = make_balanced_bst(data)
 
-print(tree.key)
-print(tree.left.value)
+#print(tree.key)
+#print(tree.left.value)
+
+"""Write a fuction that can balance a unbalanced tree"""
+def balanced_bst(node):
+    return make_balanced_bst(list_all(node))
