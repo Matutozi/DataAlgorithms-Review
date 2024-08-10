@@ -128,3 +128,5 @@ tree = make_balanced_bst(data)
 """Write a fuction that can balance a unbalanced tree"""
 def balanced_bst(node):
     return make_balanced_bst(list_all(node))
+
+
