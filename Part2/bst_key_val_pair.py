@@ -76,4 +76,51 @@ def list_all(node):
 
 #print(list_all(tree))
 
-print("IMPORTING FROM BST PAIR")
+"""BALANCED BINARY TREES
+difference between ledt sub tree and right sub tree is not more than 1
+"""
+
+#write a finction to determine if a binaru tree is balanced
+def is_balanced(node):
+    """Method that checks if a bst is balanced"""
+    if node is None:
+        return True, 0
+    
+    balanced_l, height_l = is_balanced(node.left)
+    balanced_r, height_r = is_balanced(node.right)
+
+    balanced = balanced_l and balanced_r and abs(height_l- height_r) <= 1
+    height = max(height_r, height_l) + 1
+
+    return balanced, height
+
+
+balanced, height = is_balanced(tree)
+print(balanced)
+print(height)
+
+
+"""Write a function that creates a balanced binary search tree from a sorted list of key-val pairs"""
+def make_balanced_bst(data, lo=0,hi=None, parent=None):
+    if hi is None:
+        hi = len(data) - 1
+    if lo > hi:
+        return None
+    
+    mid = (lo + hi) // 2
+    key, value = data[mid]
+    print(f"Value of key: {key} and value:{value}")
+
+    root = BSTNode(key, value)
+    root.parent = parent
+    root.left = make_balanced_bst(data, lo, mid - 1, root)
+    root.right = make_balanced_bst(data, mid + 1, hi, root)
+
+    return root
+
+data = [(1, 'a'), (2, 'b'), (3, 'c'), (4, 'd'), (5, 'e'), (6, 'f'), (7, 'g')]
+
+tree = make_balanced_bst(data)
+
+print(tree.key)
+print(tree.left.value)
