@@ -40,8 +40,8 @@ def insert(node, key, value):
     return node
 
 tree = insert(None, jadhesh.username, jadhesh)
-print(tree.key)
-print(tree.value)
+#print(tree.key)
+#print(tree.value)
 insert(tree, biraj.username, biraj)
 insert(tree, siddhant.username, siddhant)
 insert(tree, vishal.username, vishal)
@@ -74,5 +74,6 @@ def list_all(node):
         return []
     return (list_all(node.left) + [node.value] + list_all(node.right))
 
-print(list_all(tree))
+#print(list_all(tree))
 
+print("IMPORTING FROM BST PAIR")
