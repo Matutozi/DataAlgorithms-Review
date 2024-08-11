@@ -32,3 +32,6 @@ def bubble_sort(nums):
 list_ =  [5,2,6,1,23,7,-12,12,-243,0]
 sorted_l = bubble_sort(list_)
 print(sorted_l)
+
+#time complexity - O(n^2) - quadratic complexity
+#space complexity - O(n)
