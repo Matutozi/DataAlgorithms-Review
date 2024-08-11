@@ -30,3 +30,5 @@ nums = [1, 3,2,5,4,8,7,54,56,2,32]
 
 print(new_insertion(nums))
 print(insertion_Sort(nums))
+
+#complexity: time complexity - O(n^2)
