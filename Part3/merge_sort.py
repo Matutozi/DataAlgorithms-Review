@@ -40,3 +40,4 @@ def merge(nums1, nums2):
 
     return merged + nums1_tail + nums2_tail
 
+#complexity - time and space - O(nlogn) , O(n )
