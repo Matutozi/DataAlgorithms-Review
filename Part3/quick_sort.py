@@ -40,3 +40,4 @@ def partition(nums, start, end):
     else:
         return end
     
+#time complexity- O(nlogn) space - O(n)
