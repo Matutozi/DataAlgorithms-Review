@@ -50,4 +50,24 @@ def subarray_sum(array, target):
     return None, None
 
 answer1 = subarray_sum(arr0, target0)
-print(answer1)   
+print(answer1)
+
+#to do better
+def subarray_sum2(array, target):
+    n = len(array)
+    i , j , sum = 0, 0, 0
+    while i < n and j < n + 1:
+        if sum == target:
+            return i, j
+        elif sum < target:
+            if j < n:
+                sum += array[j]
+            j += 1
+        elif sum > target:
+            sum =- array[i]
+            i += 1
+
+    return None, None
+
+answeer = subarray_sum2(arr0, target0)
+print(answeer)
