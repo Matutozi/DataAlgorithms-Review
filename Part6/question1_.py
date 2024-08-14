@@ -52,7 +52,7 @@ def subarray_sum(array, target):
 answer1 = subarray_sum(arr0, target0)
 print(answer1)
 
-#to do better
+#to do better(greedy problem)
 def subarray_sum2(array, target):
     n = len(array)
     i , j , sum = 0, 0, 0
