@@ -11,8 +11,14 @@ class Solution:
         length_gcd = gcd(str1_len, str2_len)
 
         candidate = str1[:length_gcd]
+        print(candidate)
 
         if candidate * (str1_len // length_gcd) == str1 and candidate * (str2_len // length_gcd)== str2:
-            return candidate
+            return candidate    
         else:
             return ""
+        
+
+solution = Solution()
+ans = solution.gcdOfStrings("ABCABCABC", "ABC")
+print(ans)
