@@ -20,5 +20,5 @@ class Solution:
         
 
 solution = Solution()
-ans = solution.gcdOfStrings("ABCABCABC", "ABC")
+ans = solution.gcdOfStrings("ABCABCABC", "AB")
 print(ans)
