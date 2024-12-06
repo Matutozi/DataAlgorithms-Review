@@ -8,7 +8,7 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
-from typing import Optional
+from typing import Optional, List
 import collections
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
