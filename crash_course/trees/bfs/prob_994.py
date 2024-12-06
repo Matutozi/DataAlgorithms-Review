@@ -3,9 +3,12 @@
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
 #         self.left = left
-#         self.right = right
+#         self.right = righ
+
+from typing import Optional
+import collections
 class Solution:
-    def isCousins(self, root: Optional[TreeNode], x: int, y: int) -> bool:
+    def isCousins(self, root, x: int, y: int) -> bool:
         """to find if x and y are cousins, if they are cousins they would have same depth but different parents"""
         if not root:
             return False
