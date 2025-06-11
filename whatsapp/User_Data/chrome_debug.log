@@ -1,0 +1,31 @@
+[35312:35312:0611/174431.745790:WARNING:chrome/browser/signin/account_consistency_mode_manager.cc:72] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[35361:35361:0611/174432.013705:ERROR:components/viz/service/main/viz_main_impl.cc:183] Exiting GPU process due to errors during initialization
+[35312:35438:0611/174432.755223:ERROR:dbus/object_proxy.cc:590] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[35312:35438:0611/174432.756428:WARNING:dbus/property.cc:149] DaemonVersion: GetAndBlock: failed.
+[35312:35438:0611/174432.761344:ERROR:dbus/object_proxy.cc:590] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[35312:35438:0611/174432.763290:ERROR:dbus/object_proxy.cc:590] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[35312:35312:0611/174432.867966:WARNING:ui/base/idle/idle_linux.cc:110] None of the known D-Bus ScreenSaver services could be used.
+[35436:35436:0611/174433.272823:ERROR:components/viz/service/main/viz_main_impl.cc:183] Exiting GPU process due to errors during initialization
+[35461:35461:0611/174433.430962:WARNING:ui/gfx/linux/gpu_memory_buffer_support_x11.cc:49] dri3 extension not supported.
+[35461:35461:0611/174433.437049:WARNING:sandbox/policy/linux/sandbox_linux.cc:415] InitializeSandbox() called with multiple threads in process gpu-process.
+[35312:35312:0611/174435.597585:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.", source:  (0)
+[35312:35312:0611/174435.774987:INFO:CONSOLE:163] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yv/r/fW8JD8VHiu4.js (163)
+[35312:35312:0611/174527.590154:INFO:CONSOLE:0] "Blocked attempt to show a 'beforeunload' confirmation panel for a frame that never had a user gesture since its load. https://www.chromestatus.com/feature/5082396709879808", source: https://web.whatsapp.com/ (0)
+[35312:35312:0611/174528.053079:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.", source:  (0)
+[35312:35312:0611/174632.739618:INFO:CONSOLE:163] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yv/r/fW8JD8VHiu4.js (163)
+[35312:35312:0611/175030.815195:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.", source:  (0)
+[35312:35312:0611/175538.305499:INFO:CONSOLE:0] "Blocked attempt to show a 'beforeunload' confirmation panel for a frame that never had a user gesture since its load. https://www.chromestatus.com/feature/5082396709879808", source: https://web.whatsapp.com/ (0)
+[35312:35312:0611/175538.798408:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.", source:  (0)
+[35312:35312:0611/180040.986727:INFO:CONSOLE:0] "Blocked attempt to show a 'beforeunload' confirmation panel for a frame that never had a user gesture since its load. https://www.chromestatus.com/feature/5082396709879808", source: https://web.whatsapp.com/ (0)
+[35312:35312:0611/180043.823451:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.", source:  (0)
+[35312:35312:0611/180057.414760:INFO:CONSOLE:163] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yv/r/fW8JD8VHiu4.js (163)
+[35312:35312:0611/180610.831608:INFO:CONSOLE:0] "Blocked attempt to show a 'beforeunload' confirmation panel for a frame that never had a user gesture since its load. https://www.chromestatus.com/feature/5082396709879808", source: https://web.whatsapp.com/ (0)
+[35312:35312:0611/180612.185934:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.", source:  (0)
+[35312:35312:0611/180742.031881:INFO:CONSOLE:34] "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://static.whatsapp.net/rsrc.php/yk/r/ln-uwGsChQW.ttf", source: https://static.whatsapp.net/rsrc.php/v4ic244/yv/l/rt/UzSM1nL3GsN.js (34)
+[35312:35312:0611/180758.188332:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.", source:  (0)
+[35312:35312:0611/181302.462970:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.", source:  (0)
+[35312:35312:0611/181315.827985:INFO:CONSOLE:163] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yv/r/fW8JD8VHiu4.js (163)
+[35312:35312:0611/181814.103581:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.", source:  (0)
+[35312:35312:0611/182316.171902:INFO:CONSOLE:0] "Blocked attempt to show a 'beforeunload' confirmation panel for a frame that never had a user gesture since its load. https://www.chromestatus.com/feature/5082396709879808", source: https://web.whatsapp.com/ (0)
+[35312:35312:0611/182317.211907:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.", source:  (0)
+[35312:35312:0611/182324.773754:INFO:CONSOLE:163] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yv/r/fW8JD8VHiu4.js (163)
