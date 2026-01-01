@@ -1,0 +1,17 @@
+[55116:55116:0614/171850.104330:WARNING:chrome/browser/signin/account_consistency_mode_manager.cc:72] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[55157:55157:0614/171850.199330:ERROR:components/viz/service/main/viz_main_impl.cc:183] Exiting GPU process due to errors during initialization
+[55116:55224:0614/171850.889051:ERROR:dbus/object_proxy.cc:590] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[55116:55224:0614/171850.889411:WARNING:dbus/property.cc:149] DaemonVersion: GetAndBlock: failed.
+[55116:55224:0614/171850.890995:ERROR:dbus/object_proxy.cc:590] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[55116:55224:0614/171850.892483:ERROR:dbus/object_proxy.cc:590] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[55116:55116:0614/171851.035679:WARNING:ui/base/idle/idle_linux.cc:110] None of the known D-Bus ScreenSaver services could be used.
+[55220:55220:0614/171851.504838:ERROR:components/viz/service/main/viz_main_impl.cc:183] Exiting GPU process due to errors during initialization
+[55247:55247:0614/171851.664156:WARNING:ui/gfx/linux/gpu_memory_buffer_support_x11.cc:49] dri3 extension not supported.
+[55247:55247:0614/171851.671129:WARNING:sandbox/policy/linux/sandbox_linux.cc:415] InitializeSandbox() called with multiple threads in process gpu-process.
+[55116:55116:0614/171853.673821:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.", source:  (0)
+[55116:55116:0614/171853.779253:INFO:CONSOLE:163] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yt/r/Ey5QIp1RjTx.js (163)
+[55116:55116:0614/171924.207364:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.", source:  (0)
+[55116:55116:0614/172028.857020:INFO:CONSOLE:163] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yt/r/Ey5QIp1RjTx.js (163)
+[55116:55116:0614/172038.344694:INFO:CONSOLE:76] "Uncaught (in promise) Error: Unexpected null or undefined: missing local addressing mode for group", source: https://static.whatsapp.net/rsrc.php/v4/yq/r/yNVu2MwtLC-.js (76)
+[55160:55194:0614/172050.068799:WARNING:net/extras/sqlite/sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[55160:55194:0614/172050.069533:WARNING:net/extras/sqlite/sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.

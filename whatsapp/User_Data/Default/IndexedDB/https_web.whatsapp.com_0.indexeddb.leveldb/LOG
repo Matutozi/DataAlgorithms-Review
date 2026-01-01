@@ -1,0 +1,92 @@
+2025/06/14-17:18:53.879 d75b Reusing MANIFEST /home/matutozi/DataAlgorithms-Review/whatsapp/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/14-17:18:53.882 d75b Recovering log #725
+2025/06/14-17:18:54.026 d75b Reusing old log /home/matutozi/DataAlgorithms-Review/whatsapp/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000725.log 
+2025/06/14-17:18:57.778 d76e Level-0 table #736: started
+2025/06/14-17:18:57.827 d76e Level-0 table #736: 414680 bytes OK
+2025/06/14-17:18:57.837 d76e Delete type=0 #725
+2025/06/14-17:18:57.839 d75c Manual compaction at level-0 from '\x00x\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00y\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/06/14-17:19:06.758 d75c Compacting 1@1 + 7@2 files
+2025/06/14-17:19:07.289 d75c Generated table #737@1: 87537 keys, 2238278 bytes
+2025/06/14-17:19:07.585 d75c Generated table #738@1: 41152 keys, 2202079 bytes
+2025/06/14-17:19:07.787 d75c Generated table #739@1: 23792 keys, 2171259 bytes
+2025/06/14-17:19:07.956 d75c Generated table #740@1: 9226 keys, 2166022 bytes
+2025/06/14-17:19:08.156 d75c Generated table #741@1: 19940 keys, 2158860 bytes
+2025/06/14-17:19:08.253 d75c Generated table #742@1: 8244 keys, 2130430 bytes
+2025/06/14-17:19:08.614 d75c Generated table #743@1: 84023 keys, 2144537 bytes
+2025/06/14-17:19:08.614 d75c Compacted 1@1 + 7@2 files => 15211465 bytes
+2025/06/14-17:19:08.622 d75c compacted to: files[ 0 0 7 0 0 0 0 ]
+2025/06/14-17:19:08.624 d75c Delete type=2 #730
+2025/06/14-17:19:08.624 d75c Delete type=2 #732
+2025/06/14-17:19:08.624 d75c Delete type=2 #729
+2025/06/14-17:19:08.625 d75c Delete type=2 #736
+2025/06/14-17:19:08.625 d75c Delete type=2 #733
+2025/06/14-17:19:08.625 d75c Delete type=2 #728
+2025/06/14-17:19:08.626 d75c Delete type=2 #731
+2025/06/14-17:19:08.626 d75c Delete type=2 #727
+2025/06/14-17:19:26.537 d75d Level-0 table #745: started
+2025/06/14-17:19:26.574 d75d Level-0 table #745: 132269 bytes OK
+2025/06/14-17:19:26.586 d75d Delete type=0 #735
+2025/06/14-17:19:26.588 d75b Manual compaction at level-0 from '\x00y\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00z\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/06/14-17:19:35.460 d75d Compacting 1@1 + 7@2 files
+2025/06/14-17:19:36.113 d75d Generated table #746@1: 87619 keys, 2236214 bytes
+2025/06/14-17:19:36.680 d75d Generated table #747@1: 41552 keys, 2202178 bytes
+2025/06/14-17:19:36.977 d75d Generated table #748@1: 23934 keys, 2176135 bytes
+2025/06/14-17:19:37.219 d75d Generated table #749@1: 9079 keys, 2166213 bytes
+2025/06/14-17:19:37.471 d75d Generated table #750@1: 20089 keys, 2159749 bytes
+2025/06/14-17:19:37.769 d75d Generated table #751@1: 8239 keys, 2127551 bytes
+2025/06/14-17:19:38.278 d75d Generated table #752@1: 84038 keys, 2154313 bytes
+2025/06/14-17:19:38.279 d75d Compacted 1@1 + 7@2 files => 15222353 bytes
+2025/06/14-17:19:38.288 d75d compacted to: files[ 0 0 7 0 0 0 0 ]
+2025/06/14-17:19:38.290 d75d Delete type=2 #738
+2025/06/14-17:19:38.291 d75d Delete type=2 #741
+2025/06/14-17:19:38.292 d75d Delete type=2 #742
+2025/06/14-17:19:38.293 d75d Delete type=2 #743
+2025/06/14-17:19:38.293 d75d Delete type=2 #739
+2025/06/14-17:19:38.293 d75d Delete type=2 #745
+2025/06/14-17:19:38.294 d75d Delete type=2 #737
+2025/06/14-17:19:38.294 d75d Delete type=2 #740
+2025/06/14-17:20:13.041 d75d Level-0 table #754: started
+2025/06/14-17:20:13.153 d75d Level-0 table #754: 1137170 bytes OK
+2025/06/14-17:20:13.166 d75d Delete type=0 #744
+2025/06/14-17:20:14.071 d75d Compacting 1@1 + 7@2 files
+2025/06/14-17:20:14.441 d75d Generated table #755@1: 81158 keys, 2228960 bytes
+2025/06/14-17:20:14.780 d75d Generated table #756@1: 59470 keys, 2222841 bytes
+2025/06/14-17:20:15.036 d75d Generated table #757@1: 31184 keys, 2186010 bytes
+2025/06/14-17:20:15.176 d75d Generated table #758@1: 5154 keys, 2151742 bytes
+2025/06/14-17:20:15.471 d75d Generated table #759@1: 29723 keys, 2189407 bytes
+2025/06/14-17:20:15.561 d75d Generated table #760@1: 796 keys, 2113344 bytes
+2025/06/14-17:20:15.901 d75d Generated table #761@1: 51751 keys, 2187931 bytes
+2025/06/14-17:20:16.117 d75d Generated table #762@1: 40352 keys, 852990 bytes
+2025/06/14-17:20:16.117 d75d Compacted 1@1 + 7@2 files => 16133225 bytes
+2025/06/14-17:20:16.126 d75d compacted to: files[ 0 0 8 0 0 0 0 ]
+2025/06/14-17:20:16.127 d75d Delete type=2 #754
+2025/06/14-17:20:40.107 d75d Level-0 table #764: started
+2025/06/14-17:20:40.302 d75d Level-0 table #764: 1426530 bytes OK
+2025/06/14-17:20:40.320 d75d Delete type=2 #747
+2025/06/14-17:20:40.321 d75d Delete type=2 #748
+2025/06/14-17:20:40.321 d75d Delete type=2 #749
+2025/06/14-17:20:40.321 d75d Delete type=0 #753
+2025/06/14-17:20:40.322 d75d Delete type=2 #751
+2025/06/14-17:20:40.323 d75d Delete type=2 #750
+2025/06/14-17:20:40.324 d75d Delete type=2 #746
+2025/06/14-17:20:40.325 d75d Delete type=2 #752
+2025/06/14-17:20:40.462 d75d Compacting 1@1 + 8@2 files
+2025/06/14-17:20:40.962 d75d Generated table #765@1: 86810 keys, 2235607 bytes
+2025/06/14-17:20:41.247 d75d Generated table #766@1: 45277 keys, 2207554 bytes
+2025/06/14-17:20:41.490 d75d Generated table #767@1: 30615 keys, 2188765 bytes
+2025/06/14-17:20:41.627 d75d Generated table #768@1: 5964 keys, 2155692 bytes
+2025/06/14-17:20:41.899 d75d Generated table #769@1: 25365 keys, 2180201 bytes
+2025/06/14-17:20:41.996 d75d Generated table #770@1: 764 keys, 2113606 bytes
+2025/06/14-17:20:42.452 d75d Generated table #771@1: 57591 keys, 2198455 bytes
+2025/06/14-17:20:42.620 d75d Generated table #772@1: 34431 keys, 730000 bytes
+2025/06/14-17:20:42.621 d75d Compacted 1@1 + 8@2 files => 16009880 bytes
+2025/06/14-17:20:42.641 d75d compacted to: files[ 0 0 8 0 0 0 0 ]
+2025/06/14-17:20:42.643 d75d Delete type=2 #764
+2025/06/14-17:20:42.644 d75d Delete type=2 #757
+2025/06/14-17:20:42.645 d75d Delete type=2 #756
+2025/06/14-17:20:42.645 d75d Delete type=2 #755
+2025/06/14-17:20:42.646 d75d Delete type=2 #762
+2025/06/14-17:20:42.646 d75d Delete type=2 #760
+2025/06/14-17:20:42.647 d75d Delete type=2 #759
+2025/06/14-17:20:42.647 d75d Delete type=2 #761
+2025/06/14-17:20:42.648 d75d Delete type=2 #758

@@ -1,3 +1,7 @@
+"""
+VERSION 1
+
+"""
 import csv
 import urllib.parse
 import time
