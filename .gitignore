@@ -18,3 +18,11 @@ Thunms.db
 /venv/
 /User_Data
 *.png
+
+# Ignore Python virtual environments
+venv/
+*/venv/
+
+# Bytecode files
+__pycache__/
+*.pyc
